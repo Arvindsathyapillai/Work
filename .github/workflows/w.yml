@@ -1,0 +1,13 @@
+name: Arvind
+
+  on:
+    push:
+      branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+steps:
+  - name: Testing
+    run: echo "HELLO EVERYONE
